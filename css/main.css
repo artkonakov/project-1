@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: url(../img/black-bone-background.jpg) no-repeat center;
+}
+.intro-header {
+    width: 2500px;
+    height: 250px;
+    overflow: hidden;
+}
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+.intro-message img {
+    width: 150px;
+    height: auto;
+}
+.content-section-a {
+    padding: 50px 0;
+    background: #f8f8f8;
+}
+.content-section-b {
+    padding: 50px 0;
+    background: #fff;
+}
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/black-bone-hero-image-1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.box {
+    float: left;
+    width: 600px;
+    height: 100%;
+    margin: 0 1px 0 0;
+    padding: 0;
+    background: #333;
+    color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.wrapper-scroll {
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.section {
+    background: url(../img/black-bone-background.jpg) center no-repeat;
+}
+.section img {
+    width: 100%;
+    height: auto;
+}
+.navbar-inverse {
+    background: url(../img/pattern-1.png) repeat;
+    border: none;
+}
+.logo-section {
+    display: inline-block;
+    padding-top: 0px;
+    margin-top: 14px;
+}
+.logo-section a {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: bold;
+    display: inline-block;
+}
+.logo-section span a {
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: normal;
+    margin-left: 20px;
+    display: inline-block;
+}
+.logo-section a:hover {
+    text-decoration: none;
+    color: #8d8d8d;
+}
+.info-section {
+    display: inline-block;
+    padding-top: 0;
+    float: right;
+    margin-top: 14px;
+}
+.info-section a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+}
+.info-section a:hover {
+    color: #8d8d8d;
+    text-decoration: none;
+}
+.social-section {
+    display: inline-block;
+    padding-top: 0;
+    float: left;
+    margin-top: 14px;
+}
+.social-section a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1;
+    text-decoration: none;
+}
+.social-section a:hover {
+    cursor: pointer;
+    color: #8d8d8d;
+}
+.social-section ul {
+    margin: 0;
+    padding: 0;
+    margin-left: -10px;
+}
+.social-section li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+}
+.social-section img {
+    width: 24px;
+    height: 24px;
+}
+.nav-wraper {
+    position: relative;
+    width: 280px;
+}
+.nav-wraper:hover {}
+.nav-wraper img {}
+.nav-wraper img:hover {}
+.text-block {
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    padding: 5px 10px;
+    color: #22201e;
+    background: #fff;
+}
+.text-block h1 {
+    font-size: 24px;
+    color: #22201e;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+.text-block p {
+    font-size: 18px;
+    color: #22201e;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+}
+.margin-block {
+    margin-top: 80px;
+    color: #fff;
+}
+.margin-block h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.margin-block td {
+    font-size: 12px;
+}
+.price-block {
+    margin-top: 50px;
+}
+.price-block td:nth-child(2) {
+    text-align: center;
+}
+.small-logo-block {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.small-logo-block p {
+    text-align: center;
+}
+.small-logo-block img {
+    width: 48px;
+    height: auto;
+    margin-bottom: 140px;
+}
+@media screen and (min-width: 767px) {
+    .navbar a {
+        font-size: 24px;
+    }
+    .social-section img {
+        width: 30px;
+        height: 30px;
+    }
+    .margin-block td {
+        font-size: 20px;
+    }
+    .aboutus .margin-block h2{
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    .aboutus .margin-block p{
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .aboutus .margin-block{
+      margin-top: 100px;
+    }
+    .contacts h3 {
+      font-size: 24px;
+    }
+}
+.contacts {
+    margin-bottom: 50px;
+}
+.contacts h3 {
+  font-size: 20px;
+    color: #fff;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.contacts a {
+    color: #fff;
+}
+.contacts a:hover {
+    text-decoration: none;
+}
+.contacts img {
+    margin-top: 30px;
+    max-width: 600px;
+}
+.contacts p {
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.instagram-block img{
+
+margin-top: 30px;
+}
+.aboutus h2{
+  font-size: 12px;
+  line-height: 1.5;
+}
+.aboutus p{
+  font-size: 10px;
+  line-height: 1.2;
+}
+.aboutus .margin-block{
+  margin-top: 0px;
+
+}
+.aboutus .margin-block{
+  margin-top: 100px;
+}
+.aboutus .margin-block h1{
+  margin-bottom: 10px;
+}

@@ -1,0 +1,42 @@
+.son-order-btn {
+    display: block;
+    width: 142px;
+    height: 40px;
+    background: #e31c00;
+   border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+    position: relative;
+    font: bold 10px/120% "Trebuchet MS", Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+.son-order-btn:hover {
+    text-decoration: none;
+}
+.son-logo {
+    display: block;
+   width: 25px;
+    height: 27px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%; left: 17px;
+    margin-top: -14px;
+    text-indent: -9999px;
+    outline: none;
+    overflow: hidden;
+}
+.son-logo_blue {
+    background-image: url("http://sonline.su/i/son_blue.png");
+}
+.son-logo_grey {
+    background-image: url("http://sonline.su/i/son_grey.png");
+}
+.son-logo_white {
+   background-image: url("http://sonline.su/i/son_white.png");
+}
+.son-text {
+    display: block;
+    padding: 9px 0 0 54px;
+}
